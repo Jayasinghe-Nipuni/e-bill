@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electricity Bill Calculator</title>
+	<style>
+		div
+		{
+		border-style:solid;
+		border-radius:20px;
+		padding-top:40px;
+		padding-bottom:40px;
+		width:550px;
+		font-size:20px;
+		border-width:5px;
+		background-image:linear-gradient(MediumAquaMarine,yellow);
+		}
+		
+		input
+		{
+		background-color:white;
+		border-radius:10px;
+		border:0px solid;
+		height:40px;
+		}
+		</style>
+</head>
+
+<body style="background-color:MediumseaGreen">
+	
+<center>	
+	<h1 style="font-size:80px;font-family:TimesnewRoman;text-shadow:3px 3px gray">Domestic Electricity Bill Calculator</h1>
+</center>
+
+		<br>
+		<center>
+		<div>
+		<form>
+		
+			<label><b>NO of  Units used</b></label>
+			<input type="number" name="bill" id="bill" min=0></input>
+			<label><b>kWh</label></b>
+			<br><br>
+			
+			<button type="reset" name="clear" value="Clear" style="margin-left:210px;font-size:15px;"id="cl"><b>Clear</b></button>
+			<br><br>
+		
+			<button type="button" onclick="calculateMyBill()" style="margin-left:132px;font-size:15px"><b>Calculate My Bill</b></button><br><br>
+			<script src="script.js"></script>
+			<br><br>
+			
+			<p style="margin-left:23px;"><b>Your Bill Amount is :</b><span id="calcu"></span>
+			<b>Rs</b>
+			</p>
+			</form>
+			</div>
+			
+			
+			<br><br>
+	<table>
+		<tr>
+			<td><a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis" style="margin-right:300px;">More information on how my bill is<br> calculated </a></td>
+			<td><a href="https://ceb.lk/bill-calculation-commercial/en">Go to the CEB web site</a></td>
+		</tr>
+	</table>
+<h4><i>Created by:J.N.D.Hansani</i></h4>
+</center>
+
+</body>
+</html>
+			
+		
+	
